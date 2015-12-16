@@ -18,6 +18,14 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+@font-face {
+    font-family: pacifico;
+    font-style: normal;
+    font-weight: normal;
+    src: url(font/pacifico.ttf);
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -62,6 +70,14 @@ body{
     max-height:100%;
 }
 .soon h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 5em;
+	font-family: 'pacifico';
+	font-weight: 400;
+}
+
+.count {
 	text-align: center;
 	color: #fff;
 	font-size: 3em;
