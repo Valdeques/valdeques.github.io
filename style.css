@@ -16,7 +16,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: middle;
 }
 
 @font-face {
@@ -24,6 +24,13 @@ time, mark, audio, video {
     font-style: normal;
     font-weight: normal;
     src: url(font/pacifico.ttf);
+}
+
+@font-face {
+    font-family: sez-who;
+    font-style: normal;
+    font-weight: normal;
+    src: url(font/Sez-Who.ttf);
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -50,100 +57,66 @@ table {
 	border-spacing: 0;
 }
 body{
-	font-size: 17px;
-	background: #2ecc71 url('images/bg.jpg') no-repeat center center fixed;
+
+	 
+	background: #213a7c url('images/bolas.png') no-repeat center center fixed;
 	background-size: cover;
 	font-family: 'Lato',"Open Sans", Arial;
 	transition: ease-in-out all 300ms;
 }
 .soon {
+	width: 100%;
+    margin: auto;
     position:absolute;
-    width: 600px;
-    height: 270px;
     left:0; 
+    top: 20%; 
     right:0;
-    top:0; 
     bottom:0;
-    margin-top:50%;
-    margin:auto;
     max-width:100%;
     max-height:100%;
+    text-align: center;
+    
 }
+.soon img {
+	width: 40%;
+}
+
 .soon h1 {
 	text-align: center;
 	color: #fff;
-	font-size: 5em;
+	font-size: 7em;
 	font-family: 'pacifico';
 	font-weight: 400;
+                
+	text-shadow: 5px 0 #d14359, 0 5px #d14359,
+
+      5px 0 #d14359, 0 -5px #d14359, 4px -5px #d14359, -4px 2px #d14359;
+    
 }
 
-.count {
-	text-align: center;
-	color: #fff;
-	font-size: 3em;
-	font-family: 'Lato';
-	font-weight: 400;
-}
+
 .soon p{
-	color: #fff;
-	font-family: 'Lato';
+	color: yellow;
+	font-weight: bold;
+	font-family: 'sez-who';
 	font-weight: 300;
 	text-align: center;
   	margin: 0 auto;
-  	font-size: 1.2em;
-  	padding: 1.2em 0;
-}
-.soon form{
-	margin: 0 auto;
-	text-align: center;
-}
-input{
-	transition: ease-in-out all 300ms;
-}
-.soon form input[type="email"]{
-	height: 2.5em;
-	color: #34495e;
-	border-radius: 3px;
-	border: none;
-	padding: 0 .5em;
-	padding-bottom: 0.1em;
-	font-family: 'Lato';
-	font-weight: 300;
-	font-size: 0.8em;
-}
-.soon form input[type="email"]:focus{
-	outline: none;
-}
-.soon form input[type="submit"]{
-	height: 2.6em;
-	color: #fff;
-	background-color: transparent;
-	border-radius: 3px;
-	border: 2px solid #fff;
-	padding: 0 1.5em;
-	padding-bottom: 0.1em;
-	font-family: 'Lato';
-	font-weight: 400;
-	font-size: .8em;
-}
-.soon form input[type="submit"]:hover{
-	background-color:#fff;
-	background: rgba(255, 255, 255, 0.3);
+  	font-size: 2em;
+  	padding-top: 1.2em;
+  	text-shadow: 3px 0px 0px #213a7c, 
+                 -3px 0px 0px #213a7c, 
+                 0px 3px 0px #213a7c, 
+                 0px -3px 0px #213a7c;
 }
 
 .count {
-    position:relative;
-    margin-bottom:6%;
-    
-    font-family: 'Lato';
+	text-align: center;
+	color: #fff;
 }
+
 .clock {
-    font-size:75px;
+    font-size: 90px;
     text-align:center;
 }
-.count h3 {
-    position: absolute;
-    right: 1%;
-    top: 60%;
-    color: #ffffff;
-}
+
