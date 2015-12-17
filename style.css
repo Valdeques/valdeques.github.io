@@ -59,7 +59,7 @@ table {
 body{
 
 	 
-	background: #213a7c url('images/bolas.png') no-repeat center center fixed;
+	background: #213a7c url('images/bolas.png') repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
