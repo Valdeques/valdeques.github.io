@@ -61,6 +61,9 @@ body{
 	 
 	background: #213a7c url('images/bolas.png') no-repeat center center fixed;
 	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 	font-family: 'Lato',"Open Sans", Arial;
 	transition: ease-in-out all 300ms;
 }
